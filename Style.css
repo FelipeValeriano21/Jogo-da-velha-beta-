@@ -1,0 +1,92 @@
+header, main {
+
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+
+
+table td{
+
+
+    outline-style: groove;
+    font-size: 70px;
+    padding: 10px;
+    font-family: cursive;
+    width: 70px;
+
+}
+
+table tr{
+
+
+  font-size: 1300px;
+  border-top: 1px;
+  border-left: 5px;
+  border-right: 50px;
+  
+height: 130px;
+
+ 
+}
+
+#tabela{
+
+border-radius: 50px;
+
+border-top: 500px;
+
+}
+
+
+h1{
+
+font-family: cursive;
+font-size: 42px;
+color: white;
+
+}
+
+body{
+
+    background-image: linear-gradient(to right, rgb(2, 95, 104) , rgb(1, 70, 54));
+
+
+}
+
+thead{
+
+color: white;
+
+}
+
+#bot1{
+
+    margin-left: 250px;
+    top: 95%;
+    position: absolute;
+    margin-top: -110px;
+    font-family: cursive;
+    background-color: rgba(74, 0, 0, 0.889);
+    color: white;
+    
+
+
+}
+
+
+
+#bot2{
+
+    margin-left: 0px;
+    top: 95%;
+    position: absolute;
+    margin-top: -110px;
+    font-family: cursive;
+    background-color: rgba(67, 8, 140, 0.889);
+    color: white;
+    
+
+
+}
