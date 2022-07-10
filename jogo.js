@@ -84,11 +84,20 @@ function teste (){
 
         
   info.textContent = ("FIM DE JOGO");
+
+  m1.textContent = ("!");
+
+
+  
     }
+
+
+    c11.removeEventListener('click', teste,false); 
 
   var aux = jog1;
   jog1=jog2;
   jog2=aux;
+  
 
   m1.textContent = ("Vez do jogador ", jog2);
     
@@ -121,12 +130,15 @@ function teste1 (){
             window.alert("Deu velha")
 
             info.textContent = ("FIM DE JOGO");
+            m1.textContent = ("!");
         }
 
     var aux = jog1;
     jog1=jog2;
     jog2=aux;
   m1.textContent = ("Vez do ", jog2);
+
+  c12.removeEventListener('click', teste1,false); 
 }
 
 
@@ -169,6 +181,8 @@ function teste2 (){
     jog2=aux;
 
     m1.textContent = ("Vez do ", jog2);
+
+    c13.removeEventListener('click', teste2,false); 
    
 }
 
@@ -207,6 +221,8 @@ function teste3 (){
     jog2=aux;
 
     m1.textContent = ("Vez do ", jog2);
+
+    c21.removeEventListener('click', teste3,false); 
     
 }
 
@@ -238,6 +254,7 @@ function teste4 (){
             window.alert("Deu velha")
 
             info.textContent = ("FIM DE JOGO");
+
         }
  
 
@@ -247,7 +264,7 @@ function teste4 (){
 
     m1.textContent = ("Vez do ", jog2);
 
-    
+    c22.removeEventListener('click', teste4,false); 
 
 }
 
@@ -283,6 +300,8 @@ function teste5 (){
     jog2=aux;
 
     m1.textContent = ("Vez do ", jog2);
+
+    c23.removeEventListener('click', teste5,false); 
 
 }
 
@@ -323,6 +342,8 @@ function teste6 (){
 
     m1.textContent = ("Vez do ", jog2);
 
+    c31.removeEventListener('click', teste6,false); 
+
 }
 
 function teste7 (){
@@ -358,6 +379,8 @@ function teste7 (){
     jog2=aux;
 
     m1.textContent = ("Vez do ", jog2);
+
+    c32.removeEventListener('click', teste7,false); 
 
 }
 
@@ -396,5 +419,7 @@ function teste8 (){
     jog2=aux;
 
     m1.textContent = ("Vez do ", jog2);
+
+    c33.removeEventListener('click', teste8,false); 
 
 }
